@@ -1,0 +1,272 @@
+@media (max-width: 800px) {
+    
+    .nav{
+        margin-top: 56px;
+        display: none;
+        background: white;
+        width: 100%;
+        top: 0;
+        z-index: 10;
+        height: 100vh;
+        position: absolute;
+    }
+
+    .nav ul{
+        float: none !important;
+        padding: 0 !important;
+        margin-top: 20%;
+    }
+    
+    .nav ul li {
+        list-style-type: none;
+        display: block;
+    }
+    
+    .nav ul li a {
+        text-decoration: none !important;
+        color: rgb(12, 11, 11) !important;
+        padding: 12px 10px;
+        /* font-weight:  lighter; */
+        font-size: .8em;
+        margin-left: 20px !important;
+        transition: .3s;
+        text-align: center;
+        /* background: red; */
+        display: block;
+    }
+
+    .navAbout{
+        margin-top: 56px;
+        display: none;
+        background: white;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+        z-index: 10;
+        position: absolute;
+    }
+
+    .navAbout ul{
+        float: none !important;
+        padding: 0 !important;
+        margin-top: 31%;
+    }
+    
+    .navAbout ul li {
+        list-style-type: none;
+        display: block;
+    }
+    
+    .navAbout ul li a {
+        text-decoration: none !important;
+        color: rgb(12, 11, 11) !important;
+        padding: 12px 10px;
+        /* font-weight:  lighter; */
+        font-size: .8em;
+        margin-left: 20px !important;
+        transition: .3s;
+        text-align: center;
+        /* background: red; */
+        display: block;
+    }
+
+    .content{
+        top: 23%;
+    }
+
+   .content h2 {
+    padding-top: 7%;
+    font-size: 2.1em;
+    }
+    .propertyDev img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .rentalMgt img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .propertyMgt img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .rentalMgt {
+        border-right: none !important;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .propertyDev {
+        cursor: pointer;
+        border-right: none !important;
+        transition: .3s;
+    }
+    .assets-links-upper{
+        bottom: 60px;
+    }
+    .asset-text{
+        padding-top:12%;
+        padding-left: 10% !important;
+        font-size: .8em;
+    }
+
+    .assets-links-upper{
+        position: absolute;
+        bottom: -8px;
+        width: 100%;
+        color: white;
+        background: transparent;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        background: none;
+        border-radius: 0px;
+        padding: 8px 0 3px 0;
+      }
+    
+      .menu-icon span {
+        background: transparent;
+        color: white;
+        font-size: 0.7em;
+        outline: none;
+        border: none;
+      }
+      .menu-icon span:hover {
+        color: white;
+      }
+
+      .menu-icon2 {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        background: none;
+        border-radius: 0px;
+        padding: 8px 0 3px 0;
+      }
+    
+      .menu-icon2 span {
+        background: transparent;
+        color: rgb(129, 129, 129);
+        font-size: 0.7em;
+        outline: none;
+        border: none;
+      }
+      .menu-icon2 span:hover {
+        color: rgb(83, 83, 83);
+      }
+
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-4px, 2px)
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+
+      .bar4, .bar5, .bar6 {
+        width: 35px;
+        height: 1px;
+        background-color: rgb(119, 119, 119);
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar4 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-4px, 2px)
+      }
+      
+      .change .bar5 {opacity: 0;}
+      
+      .change .bar6 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+
+      .footerMain{
+          text-align: center;
+      }
+
+      .footerLinks ul {
+        float: none !important;
+        margin-left: 0px;
+        padding: 0 !important ;
+    }
+
+    .contentArea{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    .headerContent{
+        text-align: left;
+        padding-top: 0 !important;
+    }
+
+    .aboutHeader{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+
+    .header hr {
+        text-align: left;
+        margin-left: 10px;
+
+    }
+
+    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy, .contactImage {
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 130px;
+    }
+
+    .carousel-inner{
+        height: auto;
+    }
+
+    .gallery-img img{
+        margin-top: 15px;
+    }
+
+    .imageContainer{
+        margin-top: 20px;
+    }
+
+    .contentPurchase {
+        padding: 15px;
+    }
+
+    .nav ul li ul{
+        display: none !important;
+    }
+
+    .property-brief h4{
+        padding: 15px 0 15px 0;
+    }
+    
+}

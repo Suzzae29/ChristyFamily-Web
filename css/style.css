@@ -19,6 +19,20 @@
     
 }
 
+.menu{
+    position: absolute;
+    left: 78%;
+    top: 2%;
+    display: none;
+    font-size: 17px;
+}
+
+/* .fas fa-bars{
+    position: absolute;
+    left: 300px;
+    top: 41px; 
+} */
+
 .my-navigation ul li a{
     color: rgb(85, 76, 76); 
 }
@@ -137,7 +151,6 @@ font-size: 1.8rem;
     justify-content: center;
     align-content:center;
     grid-gap: 10px;
-    /* height:100vh; */
 }
 
 .thumbnail img{
@@ -201,21 +214,60 @@ font-size: 1.8rem;
     }
 
     .my-navigation ul li {
-        display: inline-block;
-        margin-left: 50px;
-        padding: 3px 1px 5px;
+        display: block;
+        padding: 0;
+        background-color:none;
+        width: 100%;
+        height: 100%;
     
     }
+
+    .image__title{
+        font-size: 2em;
+        color: salmon;
+        display: block;
+    } 
+    
+    .menu{
+        position: absolute;
+        left: 78%;
+        top: 2%;
+        display: block;
+        font-size: 17px;
+    }
+
+    .my-navigation ul i a{
+        text-align:center!important;
+        width: 100%;
+        height: 100%;
+    }
+
+    .donate{
+        color:  rgb(85, 76, 76)!important;
+        border-radius: none;
+        background:none;
+        padding:none;
+        
+    }
+
+    .my-navigation{
+        text-align: center;
+        margin-left: 1px;
+        display: none;
+    } 
+    
+    .my-navigation ul{
+       padding: 0;
+    }
+
+    .thumbnail{
+        margin-top: 10px;
+        box-sizing: border-box;
+        display: block!important;
+        grid-template-columns: repeat(3, 300px);
+        justify-content: center;
+        align-content:center;
+        padding: 50px;
+    }
+
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    

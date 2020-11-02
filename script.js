@@ -19,3 +19,34 @@ lightbox.addEventListener('click', e => {
     if (e.target !== e.currentTarget) return
     lightbox.classList.remove('active')
 })
+
+const menu = document.querySelector('#open-menu')
+const navigation = document.querySelector('.my-navigation')
+
+
+
+
+// menu.addEventListener('click', () => {
+//     if(navigation.style.display == 'none') {
+//         navigation.style.display = 'block'
+//     } 
+//     else {
+//         navigation.style.display = 'none'
+//     }
+ 
+// })
+
+menu.addEventListener('click', () => {
+    if(navigation.style.display == 'none') {
+        navigation.style.display = 'block'
+        navigation.classList.add('animate__animated', 'animate__fadeIn')
+    } 
+    else {
+        navigation.style.display = 'none'
+        navigation.classList.remove('animate__animated', 'animate__fadeIn')
+
+    }
+ 
+})
+
+
